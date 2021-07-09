@@ -1,38 +1,79 @@
-.App {
-  text-align: center;
+body{
+  background-color:honeydew
+
+}
+.container{
+ 
+  background-color:grey;
+  width:100%;
+  overflow-x:hidden;
+  
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.item{
+  color:floralwhite;
+  padding:10px;
+  margin:10px;
+}
+ul{
+  list-style-type:none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+
+
+.out{
+  width:49%;
+  display:inline;
+  float:left;
+  border:1px solid black;
+  height:50vh;
+ 
+}
+.in{
+  width:49%;
+  float:right;
+  display:inline;
+  border:1px solid black;
+  height:50vh;
+ 
+}
+
+
+.deb{
+  background-color:red;
+}
+.cred{
+  background-color: green;
+}
+.amount{
+  float:right;
+  
+}
+i{
+  margin-left:15px;
+  cursor:pointer;
+}
+li{
+  margin-left:0px;
+}
+.head{
+  position:relative;
+  top:0px;
+}
+
+@media screen and (max-width:300)
+{
+  .expense{
+    font-size: 0.5em;
+  }
+  .income{
+    font-size:0.5em
   }
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+/*@media (max-width:400)
+{
+  .item{
+    font-size:0.5em;
   }
-  to {
-    transform: rotate(360deg);
-  }
-}
+}*/
+
